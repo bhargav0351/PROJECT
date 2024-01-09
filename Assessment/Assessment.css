@@ -1,0 +1,35 @@
+
+.jay
+{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+#mehul
+{
+    height: 77px;
+    width: 130px;
+}
+
+.keval
+{
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.keval h4
+{
+    padding: 0px 10px;
+}
+#raj
+{
+    background-color: white;
+    height: 35px;
+    width: 120px;
+    margin-top: 20px;
+    border: 2px solid rgb(46, 45, 45);
+}
