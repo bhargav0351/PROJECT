@@ -162,10 +162,12 @@
         #video1
         {
             position: absolute;
-            /* z-index: 1; */
-            top: 70px;
+            overflow: hidden;
+            z-index: -1;
+            top: 100px;
             left:58px;
-            width: 320px;
+            height: 270px;
+            width: 505px;
         }
         #second2,#second3,#second4,#second5
         {
