@@ -1,0 +1,455 @@
+@media (max-width: 1400px) 
+{
+    .mini
+    {
+        margin: 0px 50px;
+    }
+    .mydiv2
+    {
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 1200px) 
+{
+    .mini
+    {
+        padding: 0px;
+        margin: 0px 20px;
+    }
+    .page2 img
+    {
+        padding: 100px 70px 100px;
+    }
+    .minipage2
+    {
+        padding-top: 50px;
+    }
+    #p1
+    {
+        font-size: 40px;
+    }
+    #p12
+    {
+        font-size: 40px;
+    }
+    #p2
+    {
+        font-size: 20px;
+    }
+    #Best1
+    {
+        font-size: 60px;
+    }
+    .allcards
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card
+    {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    .card img
+    {   
+        width: 100%;
+        height: 250px;
+    }
+    .card2 img
+    {
+        width: 100%;
+    }
+    #br2
+    {
+        margin-left: 80px;
+    }
+    #movie22
+    {
+        padding-top: 5px;
+    }
+    #bhargav65
+    {
+        top: 210px;
+        left: 285px;
+    }
+    #Company-Profile2
+    {
+        padding-top: 20px;
+    }
+    #data3
+    {
+        padding-top: 10px;
+    }
+    li
+    {
+        padding: 7px 20px;
+        font-size: 20px;
+    }
+    .data4
+    {
+        padding-top: 10px;
+    }
+    .mydiv2
+    {
+        margin-top: 20px;
+    }
+    .parent3 img
+    {
+        height: 700px;
+    }
+}
+
+
+@media (max-width: 992px) 
+{
+    #under
+    {
+        padding: 0px;
+    }
+    .jay
+    {
+        padding: 20px 50px 40px;
+        font-size: 22px;
+    }
+    .page2 img
+    {
+        padding-bottom: 80px;
+    }
+    .minipage2
+    {
+        padding-top: 50px;
+        margin-left: 50px;
+    }
+    #p2
+    {
+        font-size: 18px;
+        padding-right: 0px;
+        margin-right: 90px;
+    }
+    #br1
+    {
+        font-size: 15px;
+    }
+    #br2
+    {
+        margin-top: 0px;
+        margin-left: 53px;
+    }
+    #bhargav65
+    {
+        top: 180px;
+        left: 235px;
+        font-size: 30px;
+    }
+    #Company-Profile2
+    {
+        padding-top: 0px;
+        font-size: 35px;
+    }
+    #profile-content
+    {
+        font-size: 19px;
+    }
+    #input1,#input2
+    {
+        width: 80%;
+    }
+    #input2{
+        padding-bottom: 65px;
+    }
+    .address img
+    {
+        width: 450px;
+    }
+    .Inputside
+    {
+        margin-left: 50px;
+    }
+    .lastdata
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .lastimg
+    {
+        margin: 0 auto;
+    }
+    .table1
+    {
+        width: 100%;
+        padding: 50px 0px 50px 100px;
+        margin-left: 20px;
+    }
+    #data1,#data2,#data3
+    {
+        padding: 5px 0px;
+    }
+    .lasttable
+    {
+        width: 100%;
+        padding: 0px 100px;
+    }
+    .data4
+    {
+        padding: 50px 0px 50px 100px;
+    }
+    #data5
+    {
+        width: 50%;
+        padding: 10px 100px 10px 0px;
+    }
+}
+
+
+@media (max-width: 768px) 
+{
+    #under
+    {
+        font-size: 70px;
+        margin: 0px 40px 20px;
+    }
+    .page2 img
+    {
+        margin: 0px;
+    }
+    .minipage2
+    {
+        margin-left: 0px;
+    }
+    #p1,#p12
+    {
+        margin-top: 0px;
+        font-size: 35px;
+    }
+    #b2
+    {
+        font-size: 17px ;
+    }
+    .page3img img
+    {
+        height: 519px;
+    }
+    .mydiv2
+    {
+        padding: 70px 0px 50px 50px;
+        margin-top: 0px;
+    }
+    #Best1
+    {
+        font-size: 45px;
+    }
+    #Best2
+    {
+        font-size: 18px;
+        margin-right: 50px;
+    }
+    #mpara
+    {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    .menu29
+    {
+        margin: 0px;
+    }
+    .allcards
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 100px 0px 50px;
+    }
+    .card
+    {
+        width: 100%;
+        margin: 50px 30px;
+        /* margin: 0 auto; */
+    }
+    #bm2
+    {
+        margin: 0px;
+    }
+    .allcards2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .card2
+    {
+        width: 100%;
+        padding: 70px;
+    }
+    #br1
+    {
+        text-align: left;
+        padding-left: 0px;
+    }
+    #br2
+    {
+        margin-left: 0px;
+    }
+    .movie
+    {
+        width: 50%;
+    }
+    #dubal,#movie12
+    {
+        padding: 100px 50px;
+    }
+    #profile-content
+    {
+        font-size: 18px;
+    }
+    .icon img
+    {
+        width: 12%;
+    }
+    #profile-content
+    {
+        padding-top: 5px;
+    }
+    #bhargav65
+    {
+        top: 180px;
+        left: 180px;
+    }
+    .address img
+    {
+        width: 380px;
+    }
+    #ctitle
+    {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .Inputside
+    {
+        width: 50%;
+    }
+    #b5
+    {
+        margin-top: 25px;
+        font-size: 17px;
+        width: 40%;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 576px) 
+{
+    h2
+    {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 23px 0px;
+    }
+    .jaypal
+    {
+        padding: 55px;
+        padding: 50px;
+    }
+    .mehul img
+    {
+        width: 10%;
+        height: 70px;
+    }
+    #under
+    {
+        font-size: 53px;
+        margin: 0px;
+        padding: 0px 50px;
+    }
+    .mini
+    {
+        padding: 0px;
+    }
+    .jay
+    {
+        padding: 20px 0px 40px;
+        font-size: 19px;
+    }
+    .keval
+    {
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+    .page2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .page2 img
+    {
+        display: flex;
+        margin: 0 auto;
+        padding: 50px 0px;
+    }
+    .minipage2
+    {
+        padding: 0px 0px 50px 50px;
+    }
+    #Best1
+    {
+        font-size: 35px;
+    }
+    .parent3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .parent3 img
+    {
+        width: 100%;
+        padding: 50px 80px;
+    }
+    .page3img
+    {
+        width: 100%;
+    }
+    .mydiv2
+    {
+        width: 100%;
+        padding: 20px 80px 50px;
+    }
+    #Best2
+    {
+        margin: 0px;
+        padding: 20px 0px;
+    }
+    .menu
+    {
+        padding-top: 50px;
+    }
+    .menu29
+    {
+        padding: 0px 70px;
+    }
+    #mpara
+    {
+        font-size: 21px;
+    }
+    #bm2
+    {
+        padding: 20px 70px 50px;
+        font-size: 21px;
+    }
+    .Company-profile
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .movie
+    {
+        width: 100%;
+    }
+    #bhargav65
+    {
+        top: 240px;
+        left: 270px;
+    }
+    
+}
