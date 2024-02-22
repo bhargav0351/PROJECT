@@ -1,0 +1,357 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* first navbar start */
+.nav
+{
+    width: 100%;
+}
+.firstnav
+{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: #131921;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#amazon-logo
+{
+    width: 128px;
+    height: 50px;
+    object-fit: cover;
+    filter: invert(100%);
+    margin:  12px 8px 0 6px;
+}
+#amazon-logo:hover
+{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.address
+{
+    display: flex;
+}
+.address:hover,.connect:hover,.mehul:hover,.shopping:hover
+{
+    border:  2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#joint:hover
+{
+    box-shadow: 0px 0px 20px white;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.parent2:hover
+{
+    border:  2px solid white;
+    padding: 0px 5px ;
+    border-radius: 5px;
+}
+li
+{
+    list-style: none;
+    color: #fff;
+}
+#locate i
+{
+    font-size: 25px;
+    padding-right: 5px;
+    color: #fff;
+}
+.address
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    align-items: center;
+}
+#deliever
+{
+    color: #c0c4c7;
+}
+#ahmedabad
+{
+    color: #fff;
+}
+#joint
+{
+    display: flex;
+    margin: 0px;
+}
+#b1
+{
+    padding: 12px 20px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+}
+#search
+{
+    padding: 12px 100px 12px 12px;
+    border: 0px;
+    outline: 0;
+}
+.search-box
+{
+    background-color: #febd69;
+    border-radius: 0px 5px 5px 0px;
+}
+#glass1 i
+{
+    padding: 10px 15px;
+}
+.lists,.list2,.main-parent
+{
+    display: none;
+}
+.indian-flag,.shopping
+{
+    display: flex;
+}
+.indian-flag span,.shopping span,.connect p,.mehul p,.mehul span
+{
+    color: #fff;
+    text-transform: capitalize;
+}
+.indian-flag span
+{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shopping span
+{
+    padding-left: 5px;
+    padding-top: 15px;
+}
+#cart
+{
+    font-size: 25px;
+    padding-top: 5px;
+    color: #fff;
+}
+
+
+
+/* second navbar start */
+.secondnav
+{
+    position: relative;
+    width: 100%;
+    top: 86px;
+    background-color: #232f3f;
+    text-transform: capitalize;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondnav li:hover
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+#lastli:hover
+{
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+/* first page start */
+.page1img
+{
+    background: url(./Images/bg1.jpg)no-repeat center/cover;
+    padding-top: 100px;
+    margin-top: 86px;
+    height: 600px;
+    font-family: sans-serif;
+    width: 100%;
+}
+.col-100
+{
+    padding-top: 100px;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+/* first page end */
+
+
+
+/* second page */
+.header3
+{
+    background-color: #e3e6e6;
+    padding-top: 45px;
+}
+.cards
+{
+    padding: 0px 20px 0px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 20px;
+}
+.page2
+{
+    padding-top: 100px;
+}
+.card1images1
+{
+    display: flex;
+}
+.card1images1 .card1img1
+{
+    padding: 10px;
+}
+.card1 h4
+{
+    padding: 20px 10px;
+    color: #007185;
+    align-items: center;
+}
+.card1 
+{
+    background-color: white;
+    padding: 15px 10px 0px;
+    align-items: center;
+}
+#img2 
+{
+    width: 110px;
+    height: 80px;
+    object-fit: cover;
+}
+h2
+{
+    font-size: 21px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+#sell-all-offer
+{
+    margin-top: 20px;
+}
+
+
+
+/* threed page scroll Start */
+.header4
+{
+    background-color: #e3e6e6;
+    align-items: center;
+}
+#keval
+{
+    height: 250px;
+    width: 200px;
+}
+.cards2
+{
+    padding: 15px 15px 0px;
+    padding-left: 15px;
+    background-color: white;
+    display: flex;
+    overflow-x: scroll;
+    gap: 140px;
+}
+.card2-img
+{
+    width: 200px;
+    height: 250px;
+}
+.card2-content
+{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#offer1
+{
+    background-color: #CC0C39;
+    color: white;
+    font-size: 18px;
+    width: 89px;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+#offer1+span
+{
+    font-size: 12px;
+    padding: 6px;
+    color: #fff;
+    background-color: teal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+}
+.page3
+{
+    padding: 40px 20px 10px;
+}
+.page3title h2
+{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #fff;
+}
+.page3title h2>span
+{
+    font-size: 16px;
+}
+.second-wrapper
+{
+    padding: 10px 20px;
+}
+.cards3img
+{
+    display: flex;
+    overflow: scroll;
+    gap: 150px;
+    background-color: #fff;
+    padding: 20px;
+}
+.cards3img img
+{
+    width: 300px;
+}
+/* threed page scroll end */
+
+
+
+/* four page card Strat */
+.header5
+{
+    background-color: #e3e6e6;
+}
+.cards4
+{
+    display: flex;
+    column-gap: 20px;
+    padding: 10px 20px;
+}
+.card1img1 img
+{
+    width: 110px;
+    height: 110px;
+    flex-wrap: wrap;
+}
+h2
+{
+    font-size: 21px;
+    font-weight: 700;
+    padding-left: 10px;
+}

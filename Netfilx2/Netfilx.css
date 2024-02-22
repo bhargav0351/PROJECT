@@ -1,0 +1,464 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+
+/* navbar and first page */
+.header1
+{
+    background: url(./images/first-page.jpg);
+    border-bottom: 10px solid #232323;
+}
+
+.main1
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jivan
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img
+{
+    height: 150px;
+}
+
+.buttons
+{
+    margin-top: 55px;
+}
+
+#input2
+{
+    background-color: #181514;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding:17px 100px 17px 17px;
+}
+
+#Started
+{
+    padding: 11px 30px 14px 40px;
+    color: rgb(255 255 255);
+    background-color: #e50914;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    margin: 5px 10px 0px 0px;
+}
+
+#bhargav
+{
+    padding: 10px 35px 10px 5px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+.English
+{
+    padding: 10px 25px 10px 25px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #e50914;
+}
+
+.main23
+{
+    text-align: center;
+    padding: 100px 0px;
+    color: #fff;
+    /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+}
+
+.detile
+{
+    padding-top: 40px;
+}
+
+#first
+{
+    font-size: 50px;
+    padding-bottom: 7px;
+}
+
+#p1,#p2
+{
+    font-size: 23px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+/* navbar and first page  end*/
+
+
+
+/* Enjoy on your TV page Started  */
+.header2
+{
+    border-bottom: 10px solid #232323;
+    background-color: #000;
+}
+
+.card2
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 70px 0px;
+    justify-content: space-between;
+}
+
+.jay2,.jay3
+{
+    width: 50%;
+    color: #fff;
+    padding: 100px 0px;
+}
+
+#second2,#second3,#second4,#second5
+{
+    font-size: 55px;
+}
+
+#p3,#p11,#p12,#p13
+{
+    padding-top: 25px;
+    font-size: 26px;
+}
+
+.tv2
+{
+    width: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.tv2 img
+{
+    width: 100%;
+    /* position: relative; */
+    /* z-index: 1; */
+}
+
+#video12
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    top: 84px;
+    left: -1px;
+    height: 222px;
+    right: 100px;
+}
+/* Enjoy on your TV page end */
+
+
+
+/* Download page Started  */
+.header3
+{
+    background-color: #000;
+    border-bottom: 10px solid #232323;
+}
+
+.card3
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 70px 0px;
+}
+
+.maindownload
+{
+    width: 70%;
+    z-index: 0;
+    padding: 10px 15px 5px;
+    background-color: #000;
+    position: absolute;
+    bottom: 70px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tv3img
+{
+    width: 280px;
+    height: 450px;
+    margin: 30px 50px;
+}
+
+.tv3
+{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.downloadimg img
+{
+    width: 80px;
+    height: 100px;
+    padding: 0;
+}
+
+.downloadimg2 img
+{
+    width: 80px;
+    height: 100px;
+    padding: 0;
+}
+
+.downloadcard
+{
+    padding-top: 30px;
+}
+
+.firsth2
+{
+    color: #fff;
+}
+
+.firsta1
+{
+    text-decoration: none;
+    color: rgb(25, 70, 218);
+}
+/* Download page end */
+
+
+
+/* mobile page started */
+.header4
+{
+    border-bottom: 10px solid #232323;
+    background-color: #000;
+}
+
+.card4
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 70px 0px;
+}
+
+.jay4
+{
+    width: 50%;
+    color: #fff;
+    padding: 100px 0px 50px;
+}
+
+.tv4
+{
+    width: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.tv4 img
+{
+    width: 100%;
+}
+
+#video22
+{
+    position: absolute;
+    width: 328px;
+    bottom: 175px;
+    left: 102px;
+    z-index: -1;
+}
+/* mobile page end */
+
+
+/* Create profiles for kids page Started */
+.header5
+{
+    border-bottom: 10px solid #232323;
+    background-color: #000;
+}
+
+.card5
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 70px 0px;
+}
+
+.jay5
+{
+    width: 50%;
+    color: #fff;
+    padding: 100px 0px 50px;
+}
+
+.tv5
+{
+    width: 50%;
+    z-index: 1;
+    position: relative;
+}
+/* Create profiles for kids page end */
+
+
+
+.header6
+{
+    background-color: rgb(0 0 0);
+    box-sizing: border-box;
+    padding-top: 10px;
+    border-bottom: 8px solid #232323
+}
+.maintitel
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#p4
+{
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0px 20px;
+}
+.block
+{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    background-color: rgb(45 45 45);
+    padding: 10px 10px;
+    margin: 7px 0px;
+}
+.samllblock
+{
+    color: #fff;
+    border: 2px solid rgb(45 45 45);
+    padding: 5px 10px;
+    display: none;
+    background-color: rgb(45 45 45);
+}
+.login2
+{
+    padding-bottom: 70px;
+    display: flex;
+    align-items: center;
+}
+.janu2
+{
+    color: rgb(255 255 255);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#input23
+{
+    background-color: #181514;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    padding:17px 100px 17px 17px;
+}
+
+#Started2
+{
+    padding: 11px 30px 14px 40px;
+    color: rgb(255 255 255);
+    background-color: #e50914;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    margin: 5px 10px 0px 0px;
+}
+
+
+/* footer started */
+footer
+{
+    background: #000;
+    color: #fff;
+    /* font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; */
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+.lists
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -15px;
+}
+
+.wrapper-last
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0px 70px;
+    color: #fff;
+}
+
+#hard
+{
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+.lists li
+{
+    padding: 10px 0px;       
+}
+
+#select1
+{
+    padding: 5px 20px;
+    margin: 20px 0px 20px 60px;
+    background: transparent;
+    color: white;
+}
+
+#select1+#p1
+{
+    font-size: 15px;
+}
+
+.wrapper-last a
+{
+    color: #fff;
+    text-decoration: none;
+}
+        
+a:active
+{
+    color: rgb(23, 87, 206);
+}
+/* footer end */
