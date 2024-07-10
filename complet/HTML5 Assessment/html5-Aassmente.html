@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./html5-Assessment.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <input type="text" id="input1" placeholder="0">
+            <span id="ans">
+                0
+            </span>
+        </div>
+        
+        <div class="wrap2">
+            <div class="first">
+                <button  onclick="number(this)" >7</button>
+                <button  onclick="number(this)" >4</button>
+                <button  onclick="number(this)" >1</button>
+                <button  onclick="number(this)" >.</button>
+            </div>
+    
+            <div class="second">
+                <button  onclick="number(this)" >8</button>
+                <button  onclick="number(this)" >5</button>
+                <button  onclick="number(this)" >2</button>
+                <button  onclick="number(this)" >0</button>
+            </div>
+    
+            <div class="thrid">
+                <button  onclick="number(this)" >9</button>
+                <button  onclick="number(this)" >6</button>
+                <button  onclick="number(this)" >3</button>
+                <button onclick="function_total()">=</button>
+            </div>
+    
+            <div class="froth">
+                <button onclick="function_delete()" id="delete">
+                    del
+                </button>
+                <button onclick="function_(this)" >/</button>
+                <button onclick="function_(this)" >*</button>
+                <button onclick="function_(this)" >-</button>
+                <button onclick="function_(this)" >+</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        let input1=document.getElementById('input1');
+
+        function number(e)
+        {
+            // console.log(e.value);
+            input1.value += e.innerText;  //input1.value=input1.value+e.innertext;
+        }
+        function function_(d)
+        {
+            input1.value += d.innerText;
+        }
+
+        function function_total()
+        {
+            document.getElementById('ans').innerText=eval(input1.value);
+            // input1.value=eval(input1.value);
+        }
+
+        function function_delete()
+        {
+            // input1.value=d.innerText="";
+            input1.value=input1.value="";
+        }
+    </script>
+</body>
+</html>

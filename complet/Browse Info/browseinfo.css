@@ -1,0 +1,362 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+#navbar
+{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+#carouselExampleControls
+{
+    /* margin-top: 70px; */
+    padding-top: 68px;
+}
+.container img
+{
+    width: 250px;
+    filter: invert(100%);
+}
+.navbar-toggler
+{
+    filter: invert(100%);
+}
+.parent1 a
+{
+    color: #fff;
+}
+.lists
+{
+    display: none;
+    position: absolute;
+}
+.lists2
+{
+    display: none;
+    position: absolute;
+}
+.s-menue li>a,.lists li>a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.s-menue li,.lists li  
+{
+    margin-bottom: 5px;
+    padding: 8px;
+}
+.joint,.joint2
+{
+    position: relative;
+    padding: 0px;
+}
+.joint:hover .lists
+{
+    display: block;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    width: 200px;
+    top: 40px;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 5px 50px black;
+    z-index: 1; 
+}
+.joint2:hover .lists2
+{
+    z-index: 1;
+    display: block;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    width: 390px;
+    top: 40px;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 5px 5px 50px black;
+    display: flex;
+    font-size: 15px;
+}
+.s-menue li>a:hover,.lists li>a:hover
+{
+    color: blue;
+}
+/* navbar end */
+
+/* slider Start */
+#img1
+{
+    background: url(./Images/Banner-1.webp) no-repeat center center/cover;
+    height: 453px;
+    font-family: henderson-bcg-sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+#img2
+{
+    background: url(./Images/banner-new2.webp) no-repeat center center/cover;
+    height: 453px;
+    font-family: henderson-bcg-sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+#img3
+{
+    background: url(./Images/banner-new-3.webp) no-repeat center center/cover;
+    height: 453px;
+    font-family: henderson-bcg-sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.minip2 h2
+{
+    padding-top: 20px;
+}
+.minip3 p
+{
+    font-size: 25px;
+}
+.minip
+{
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.minip2
+{
+    padding-top: 100px;
+    margin-top: 100px;
+}
+.minip3
+{
+    padding-top: 100px;
+    margin-top: 20px;
+}
+.minip3 h2,.minip2 h2,.minip h2
+{
+    font-size: 40px;
+}
+/* slider end */
+
+
+
+
+/* Odoo Development Company start */
+#cards85:hover 
+{
+    background-color: #212529;
+    transform: perspective(600px) rotatex(20deg);
+}
+.card-body:hover p
+{
+    color: #fff;
+}
+.keval
+{
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Odoo Development Company end*/
+
+
+
+
+/* Our Trusted Partners start */
+#companyimg img
+{
+    width: 70%;
+    /* height: 100%; */
+    padding: 15px 0px;
+}
+#Trusted-Partners
+{
+    width: 82%;
+}
+#Trusted-Partners:hover
+{
+    background-color: #212529;
+    transform: perspective(1500px) rotatex(20deg);
+}
+/* Our Trusted Partners end */
+
+
+
+
+/* Happy Clients start */
+#Happy-Clients:hover
+{
+    background-color: #212529;
+    transform: perspective(600px) rotatex(20deg);
+    color: #fff;
+}
+/* Happy Clients end */
+
+
+
+
+/* What can we help you with? start */
+#ninecard .content_1
+{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    display: none;
+    color: #fff;
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+}
+.content_1 p
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 16px;
+}
+.content_1 a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+.icon9
+{
+    display: none;
+    position: absolute;
+    top: 200px;
+    right: 30px; 
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+}
+#ninecard
+{
+    position: relative;
+}
+#ninecard:hover .content_1
+{
+    display: block;
+    text-transform: capitalize;
+}
+#ninecard:hover .icon9
+{
+    display: block; 
+    color: #fff;  
+    filter: brightness(100%);
+}
+#ninecard:hover .card
+{
+    filter: brightness(65%);
+    border-radius: 0;
+}
+.icon9:hover
+{
+    text-decoration: underline;
+}
+/* What can we help you with? end */
+
+
+
+
+
+
+#janvi
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#keeps-moving:hover
+{
+    background-color: #212529;
+    transform: perspective(600px) rotatex(20deg);
+    color: #fff;
+}
+
+
+
+
+
+
+/* Odoo Gold Partner in India */
+.title-wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 100px;
+}
+.title-wrapper h2{
+    font-size: 22px;
+}
+.oddo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 12px ;
+    margin: 20px 0px 0px;
+    box-shadow: 0 0 2px black;
+    cursor: pointer;
+}
+.oddo span
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.title-wrapper i
+{
+    font-size: 20px;
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+.block1 p
+{
+    padding: 20px ;
+    background-color:#212529;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 0 5px #212529;
+}
+.fa-clock-o:before
+{
+    content: "\f017";
+}
+.oddo i
+{
+    background: #212529;
+    color: white;
+} 
+.oddo i:hover
+{
+    color: black;
+}
+.title-wrapper>p{
+    font-size: 28px;
+    padding-block: 20px;
+}
+.fa-1x:hover ,.oddo i:hover
+{
+    background-color: white;
+    color: #212529;
+    outline: 2px solid #212529 ;
+    outline-offset: -2px;
+}
+/* Odoo Gold Partner in India end*/
+
+
+#form2
+{
+    display: none;
+}

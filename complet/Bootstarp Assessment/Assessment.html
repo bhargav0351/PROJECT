@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assessment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    *
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #form
+    {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:15px 0px;
+      border-radius: 15px;
+      margin: 0 auto;
+      box-shadow: 5px 5px 20px #9c9797;
+    }
+    #form2
+    {
+      background-color: #ecf0f3;
+      box-shadow: 5px 5px 20px #9c9797;
+      border-radius: 15px;
+      padding: 40px;
+      width: 32%;
+      display: flex;
+      margin: 50px auto;
+    }
+    .bhargav
+    {
+      display: flex;
+      font-size: 15px;
+      border-radius: 20px;
+      border: 0px;
+      margin-top: 10px;
+      padding: 7px 62px;
+    }
+    .carousel
+    {
+      border: 1px solid #797474;
+      border-radius: 100%;
+      box-shadow: 5px 5px 20px #797474;
+    }
+    .d-block
+    {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+    .form-outline input
+    {
+      border-radius: 20px;
+    }
+    #error1,#error2
+    {
+      color: red;
+      text-transform: capitalize;
+    }
+  </style>
+  <link rel="stylesheet" href="./Responsive.css">
+</head>
+<body>
+  <div id="form2">
+    <form id="form" class="col-12 m-0">
+      <div class="carousel p-3 mb-4">
+        <img src="./3938028.png" class="d-block p-0" alt="...">
+      </div>
+      
+      <!-- Username -->
+      <div class="form-outline mb-2">
+        <label class="form-label mt-2" for="form1Example13">Username</label>
+        <input type="text" id="username"class="form-control px-4" oninput="function1(this,'error1','Username')" placeholder="Username"/>
+        <span id="error1"></span>
+      </div>
+      
+      <!-- Password -->
+      <div class="form-outline mb-2">
+        <label class="form-label mt-2" for="form1Example13">Password</label>
+        <input type="password" id="password" class="form-control px-4" oninput="function1(this,'error2','Password')" placeholder="Password"/>
+        <span id="error2"></span>
+      </div>
+      
+      <!-- sing in button -->
+      <div class="col-auto">
+        <button class="bhargav bg-primary" onclick="myfun()" style="color: #fff;">Confirm identity</button>
+      </div>
+      <div class="Sign-in my-2">
+        <a href="" style="text-decoration: none; font-size: 15px;">Forget Password?<span style="color: black;">or</span>Sign in? </a>
+      </div>
+    </form>
+  </div>
+
+  <script src="../../JQuery/jquery-3.7.1.min.js"></script>
+  <script>
+    function function1(a,mehul,name) 
+    {
+      document.getElementById("username").style.display="block";
+      if (a.value == "") 
+      {
+        document.getElementById(mehul).innerText = "enter valid" + " " + name;
+        console.log(innerText = "Enter Valid" + " " + name);         
+      }
+    }
+
+    function function2(b,mehul,name)
+    {
+      document.getElementById("pasword").style.display="block";
+      if (b.value == "")
+      {
+        document.getElementById(mehul).innerText = "enter valid" + " " + name;
+        console.log(innerText = "Enter Valid" + " " + name);       
+      }
+    }
+    function myfun() 
+    {
+      let keval=document.getElementById('username').value;
+      let jay=document.getElementById('password').value;
+      if (keval==''||jay=='') 
+      {
+        alert('Username and Password compulsory fill the data');
+        console.log('Username and Password compulsory fill the data')
+      }
+      else
+      {
+        alert('Username'+ ':' + keval + "  " +'Password'+ ':' + jay);
+        console.log('Username'+ ':' + keval + "  " +'Password'+ ':' + jay);  
+      }
+    }
+
+    // This will work in ASP.NET Web Forms too, but would cause other issues
+    $(".bhargav").click(function () {
+      event.preventDefault();
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

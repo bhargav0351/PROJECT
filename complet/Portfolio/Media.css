@@ -1,0 +1,55 @@
+
+@media (max-width: 1400px) 
+{
+
+}
+
+@media (max-width: 1200px)
+{ 
+
+}
+
+@media (max-width: 992px) 
+{ 
+
+}
+
+@media (max-width: 768px)
+{
+
+}
+
+@media (max-width: 576px) 
+{ 
+    .contact-info h4
+    {
+        font-size: 18px;
+    }
+    #img1
+    {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 412px) 
+{
+    .col-80
+    {
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) 
+/* iphone se */
+{
+    .col-80
+    {
+        width: 80%;
+    }
+    #img1
+    {
+        width: 60px;
+        height: 60px;
+    }
+}

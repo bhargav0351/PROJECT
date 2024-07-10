@@ -1,0 +1,80 @@
+.main
+{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 20%;
+    padding: 30px;
+    background-color: rgb(55, 90, 243);
+}
+input
+{
+    width: 88%;
+    border: 2px solid black;
+    margin: -2px;
+    padding: 10px 20px 40px 12px;
+    font-size: 20px;
+    text-align: right;
+}
+.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#ans
+{
+    position: absolute;
+    bottom: 15px;
+    right: 21px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.wrap2
+{
+    margin-top: -4px;
+    width: 100%;
+    margin-left: -2px;
+    display: flex;
+    border: 2px solid black;
+}
+.first,.second,.thrid
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.froth
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+button
+{
+    color: aliceblue;
+    font-weight: 700;
+}
+.first button
+{
+    padding: 15px 0px;
+    background-color: #303030;
+}
+.second button
+{
+    padding: 15px 0px;
+    background-color: #303030;
+}
+.thrid button
+{
+    padding: 15px 0px;
+    background-color: #303030;
+}
+.froth button
+{
+    padding: 10px 0px;
+    background-color: #5a5656;
+}
+#delete
+{
+    padding-bottom: 11px;
+}

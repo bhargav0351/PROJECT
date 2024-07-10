@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        #clock,#day
+        {
+            margin: 0 auto;
+            margin-top: 50px;
+            padding: 10px 20px;
+            width: 50%;
+            font-size: 65px;
+            text-align: center;
+            border: 4px solid black;
+            border-radius: 20px;
+            /* background: radial-gradient(red,blue,rgb(13, 236, 236),aqua); */
+            /* background: linear-gradient(to left,red,blue,green); */
+            /* background: linear-gradient(to right,red,blue,green); */
+            background: linear-gradient(50deg,red,blue,green);
+        }
+    </style>
+</head>
+<body>
+    <div id="day"></div>
+    <div id="clock"></div>
+ 
+    <script>
+        // Defining showTime funcion
+        function showTime() {
+            // Getting current time and date
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            let ampm = "";
+
+            // Setting time for 12 Hrs format
+            if (hour >= 12) 
+            { 
+              ampm = "PM";
+            } 
+            else if (hour <= 12) 
+            {
+              ampm = "AM";
+            }
+
+            
+            // for hour 
+            if (hour < 10) 
+            {
+                hour= "0" + hour    
+            }
+
+            // for minit 
+            if (min < 10) 
+            {
+                min= "0" + min
+            }
+
+            // for second
+            if (sec < 10) 
+            {
+                sec= "0" + sec    
+            }
+
+            // Displaying the time
+            let currentTime = hour + " : " + min +" : " + sec + " " + ampm;
+            document.getElementById("clock").innerHTML = currentTime;
+            // console.log(clock.innerHTML);
+
+            // Calling showTime function at every second
+            setInterval(showTime, 1000);
+        }
+        showTime();
+
+
+
+
+        function second()
+        { 
+        let date=new Date();
+        let subdata=date.getDay();
+
+        if (subdata==1)
+        {
+        subdata= "Monday";  
+        }
+        else if (subdata==2)
+         {
+        subdata="Tuesday";  
+        }
+        else if (subdata==3) 
+        {
+        subdata="wednesday";  
+        } 
+        else if (subdata==4) 
+        {
+          subdata="Thursday";  
+        } 
+        else if (subdata==5)
+         {
+          subdata="Friday";  
+        }
+         else if (subdata==6)
+          {
+          subdata="saturday";  
+        }
+         else if (subdata==7)
+          {
+          subdata="Sunday";  
+        }
+        else
+        {
+          subdata='Thanks';
+        }
+        
+        
+        let month=date.getMonth();
+        switch(month)
+        {
+        case 0:
+          month="January";
+          break;
+        case 1:
+          month="February";
+          break;
+        case 2:
+          month="March";
+          break;
+        case 3:
+          month="April";
+          break;
+        case 4:
+          month="May";
+          break;
+        case 5:
+          month="June";
+          break;
+        case 6:
+          month="July";
+          break;
+        case 7:
+          month="August";
+          break;
+        case 8:
+          month="September";
+          break;
+          case 9:
+          month="October";
+          break;
+        case 10:
+          month="November";
+          break;
+        case 11:
+          month="December";
+          break;
+        default:
+          month="Invalid month";
+        }
+                
+        // document.getElementById('day').innerHTML=subdata+',';
+        let day=date.getDate();
+        let year=date.getFullYear();
+        document.getElementById('day').innerHTML=subdata+','+month+","+day+","+year;
+    }
+    second();
+    setInterval(second,1000);
+    </script>
+</body>
+</html>

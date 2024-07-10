@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./Registration-form.css">
+    <script src="./Registration-form.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h2>Responsive Registration Form</h2>
+        <div class="center">
+            <div class="wrapper1">
+                <i class="fa-solid fa-envelope" id="icon1"></i>
+                <input type="text" placeholder="Email" id="input1" onblur="function_all(this,'error','Email')">
+            </div>
+            <span id="error">
+            </span>
+    
+            <div class="wrapper2">
+                <i class="fa-solid fa-lock" id="icon2"></i>
+                <input type="text" placeholder="Password" id="input1" onblur="function_all(this,'error1','Password')">
+            </div>
+            <span id="error1">
+            </span>
+    
+    
+            <div class="wrapper3">
+                <i class="fa-solid fa-lock" id="icon2"></i>
+                <input type="text" placeholder="Re-type Password" id="input1" onblur="function_all(this,'error2','Re-type Password')">
+            </div>
+            <span id="error2">
+            </span>
+        </div>
+
+        <div class="janu">
+            <div id="bhumi1">
+                <i class="fa-solid fa-user" id="icon3"></i>
+                <input type="text" placeholder="First Name" id="input1" onblur="function_all(this,'error3','First Name')">
+            </div>
+            <span id="error3">
+            </span>
+
+            <div id="bhumi2">
+                <i class="fa-solid fa-user" id="icon3"></i>
+                <input type="text" placeholder="Last Name" id="input1" onblur="function_all(this,'error4','Last Name')">
+            </div>
+            <span id="error4">
+            </span>
+        </div>
+
+        <div class="anjali">
+            <input type="radio"> Male
+            <input type="radio"> Female
+        </div>
+
+        <div class="center">
+            <div class="wrapper4">
+                <select name="Select a Country" id="">
+                    <option value="">Select a Country</option>
+                    <option value="">United States</option>
+                    <option value="">China</option>
+                    <option value="">Gremany</option>
+                    <option value="">Japan</option>
+                    <option value="">Unitrd Kingdom</option>
+                    <option value="">Canada</option>
+                    <option value="">Russia</option>
+                    <option value="">Australia</option>
+                    <option value="">Brazil</option>
+                    <option value="">France</option>
+                    <option value="">India</option>
+                    <option value="">South Korea</option>
+                    <option value="">Italy</option>
+                </select>
+            </div>
+            <span id="error5">
+            </span>
+        </div>
+
+        <div class="parent12">
+            <div class="anjali2">
+                <input type="checkbox" id="checkbox1"> I agree with terms and conditions
+            </div>
+    
+            <div class="anjali2">
+                <input type="checkbox" id="checkbox2"> I want to receive the newsletter
+            </div>
+        </div>
+
+        <div class="button1">
+            <button>
+                Register
+            </button>
+        </div>
+    </div>
+</body>
+</html>
